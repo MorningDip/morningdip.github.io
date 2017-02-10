@@ -1,0 +1,26 @@
+# Dependencies
+markdown            : kramdown
+redcarpet:
+  extensions        : ["tables", "autolink", "strikethrough", "space_after_headers", "with_toc_data", "fenced_code_blocks"]
+highlighter         : rouge
+gems                : ["jekyll-paginate"]
+
+# Permalinks
+permalink           : pretty
+
+# Setup
+title               : MorningDip
+tagline             : ''
+description         : '紀錄那些我所知道的大小事'
+baseurl             : /
+
+author              : Eric Chen
+name                : 'Eric Chen'
+url                 : https://morningdip.github.io/
+
+paginate            : 5
+
+# Custom vars
+version             : 0.1.0
+twitter_username    : morning_dip
+github_username     : morningdip
