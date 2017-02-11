@@ -34,7 +34,7 @@ subtitle   : "如何利用Github Page快速建立自己的部落格"
 
 首先你必須先問自己，呃我是要用內建的github.io網域呢？還是想要用自己購買的網址？
 
-	#### A. 我想要使用內建的github.io網域
+#### A. 我想要使用內建的github.io網域
  	
 如果你想直接使用github.io網域，首先先在自己的Github建立新的Repositories。這邊名稱是有限制的，必須為`你的Username.github.io`。之後你部落格的URL就會試`https://你的Username.github.io/`。專案內容只要放在預設的master分支下，就能建置網站，要注意的是每個Github帳號只能擁有一個使用者網站。這樣大概就完成第一步了。
 
