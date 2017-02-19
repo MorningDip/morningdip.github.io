@@ -67,7 +67,6 @@ Disqus提供一個簡單、方便而且超快速的方法，為你的部落格�
 <script>
 
 var disqus_config = function () {
-this.page.url = 'https://morningdip.github.com{{ page.url }}';
 this.page.identifier = '{{ page.url }}';
 };
 
