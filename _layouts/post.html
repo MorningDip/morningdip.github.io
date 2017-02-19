@@ -8,6 +8,11 @@ layout: default
   {{ content }}
 </div>
 
+<div class="post-tag">
+    {% for tag in page.tags %} <a class="tag-wrapper" href="/tags/{{ tag }}"><span class="tags">{{ tag }}</span></a>  {% if forloop.last != true %} {% endif %} {% endfor %}
+</div>
+<br>
+
 <div class="related">
   <h2>Related Posts</h2>
   <ul class="related-posts">
