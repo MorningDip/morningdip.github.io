@@ -1,14 +1,15 @@
 ---
-layout: 	post
-title: 		"Disqus with Jekyll"
+layout:     post
+title:      "Disqus with Jekyll"
 subtitle: 	"為你的部落格加上Disqus留言插件"
 comments: 	true
-tags:		[disqus, jekyll]
+image:      /assets/disqus_logo.png
+tags:       [disqus, jekyll]
 ---
 
 ## 什麼是Disqus
 
-![alt text](https://www.drupal.org/files/project-images/disqus_logo_-_white_on_blue_background.png)
+![alt text](/assets/disqus_logo.png)
 
 Disqus提供一個簡單、方便而且超快速的方法，為你的部落格嵌入討論串的功能，你不用去擔心自己還要弄Database那些有的沒的，也不用煩惱到要該安裝Facebook留言插件，還是Google+留言插件，Disqus統合所有帳號，同時還還可以幫你統計最近被熱烈討論的文章，種種的方便管理好處，非常適合Jekyll Blog。
 
@@ -18,16 +19,16 @@ Disqus提供一個簡單、方便而且超快速的方法，為你的部落格�
 
 辦好帳號會來到這個頁面，我們選擇下面這個選項`I want to install Disqus on my site`為我們的部落格嵌入Disqus討論串。
 
-![alt text](http://i.imgur.com/gUnKZkf.png)
+![alt text](/assets/disqus.com_profile_signup_intent_.png)
 
 下一個頁面為我們的Disqus設定一個`Website Name`，它是用來產生一個獨一的disqus URL，基本上就命名自己看得懂的名字，像是你的部落格名稱，種類`Category`、語言`Language`，就按照自己喜好設定，然後點選`Create Site`。
 
-![alt text](http://i.imgur.com/yezHJwo.png)
+![alt text](/assets/disqus.com_admin_create.png)
 
 接著選擇平台，這邊理所當然選擇`Jekyll`。步驟一主要是跟你說明，你可以在你的markdown文件新增一個變數`comments`在標頭，這是方便你覺得該篇文章要不要開起討論串的功能，格式類似這樣：
 
-![alt text](http://i.imgur.com/sDczcRY.png)
-![alt text](http://i.imgur.com/Tc13rGp.png)
+![alt text](/assets/disqus.com_admin_install.png)
+![alt text](/assets/disqus.com_install.png)
 
 	---
 	layout:		post
@@ -56,7 +57,7 @@ Disqus提供一個簡單、方便而且超快速的方法，為你的部落格�
 </html>
 {% endraw %}
 ```
-![alt text](http://i.imgur.com/EowLJmz.png)
+![alt text](/assets/disqus.com_universal.png)
 
 最後我們在`_includes/`資料夾底下新增一個`comments.html`，貼上剛剛步驟二所產生的`Universal Embed Code`，並在頭尾個加上`{% raw %} {% if page.comments %} {% endraw %}`與`{% raw %} {% endif %} {% endraw %}`，像是這樣：
 

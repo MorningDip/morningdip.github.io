@@ -22,7 +22,7 @@ author:
   url:            
 
 
-gems:             ["jekyll-paginate"]
+gems:             ["jekyll-paginate", "jekyll-auto-image"]
 paginate:         5
 
 # Custom vars

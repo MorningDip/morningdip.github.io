@@ -3,12 +3,13 @@ layout: 	post
 title: 		"Github Pages and Jekyll"
 subtitle: 	"如何利用Github Page快速建立自己的部落格"
 comments: 	true
+image:      /assets/jekyll.png
 tags:		[jekyll]
 ---
 
 ## Jekyll 簡介
 
-![alt text](http://jekyllrb.com/img/octojekyll.png)
+![alt text](/assets/jekyll.png)
 
 簡單而言，Jekyll是利用Ruby所開發的「靜態網站產生器」。下面是[Jekyll中文站](http://jekyllcn.com)的介紹：
 
@@ -40,7 +41,7 @@ tags:		[jekyll]
 
 #### A. 我想要使用內建的github.io網域
 
-![alt text](http://i.imgur.com/dQahFFA.png)
+![alt text](/assets/github.com_new.png)
  	
 如果你想直接使用github.io網域，首先先在自己的Github建立新的Repositories。這邊名稱是有限制的，必須為`你的Username.github.io`。之後你部落格的URL就會是`https://你的Username.github.io/`。專案內容只要放在預設的master分支下，就能建置網站，要注意的是每個Github帳號只能擁有一個使用者網站。這樣大概就完成第一步了。
 
@@ -74,7 +75,7 @@ tags:		[jekyll]
 
 接著你可以用Google搜尋看看樣式頁面，我在這邊遇到滿多問題的，原因是因為Jekyll不斷更新，很多網路上的樣式已經不支援最新版的Jekyll，我自己的話是選擇[Hyde](https://github.com/poole/hyde)樣式，教學就以它為介紹好了。
 
-![alt text](http://i.imgur.com/B9U1NLO.png)
+![alt text](/assets/github.com_poole_hyde.png)
 
 首先先到[Hyde](https://github.com/poole/hyde)，點選右上角的`Clone or download`選擇`Download ZIP`下載一份至電腦中，接著解壓縮到你本機儲存庫的路徑，
 
